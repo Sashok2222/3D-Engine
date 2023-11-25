@@ -1,3 +1,0 @@
-E:/Cpp/3D/cmake-build-debug/CMakeFiles/3D.dir
-E:/Cpp/3D/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Cpp/3D/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-"E:\Cpp\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\3D.dir/objects.a
-E:\Cpp\mingw64\bin\ar.exe cr CMakeFiles\3D.dir/objects.a @CMakeFiles\3D.dir\objects1.rsp
-E:\Cpp\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\3D.dir/objects.a -Wl,--no-whole-archive  -o 3D.exe -Wl,--out-implib,lib3D.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\3D.dir\linklibs.rsp
