@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="3D"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFML\;CMake Files\SFML\lib\;CMake Files\SFML\lib\cmake\;CMake Files\SFML\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Cpp/3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3D">
+				<Option output="E:/Cpp/3D/cmake-build-debug/3D.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cpp/3D/./SFML/include"/>
+					<Add directory="E:/Cpp/3D/SFML/include"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 3D"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3D/fast">
+				<Option output="E:/Cpp/3D/cmake-build-debug/3D.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cpp/3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cpp/3D/./SFML/include"/>
+					<Add directory="E:/Cpp/3D/SFML/include"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="E:/Cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 3D/fast"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Cpp/3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Cpp/3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Cpp/mingw64/bin/mingw32-make.exe -f &quot;E:/Cpp/3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Cpp/3D/Camera.cpp">
+			<Option target="3D"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/Camera.h">
+			<Option target="3D"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/Structs.h">
+			<Option target="3D"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/main.cpp">
+			<Option target="3D"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/SFML/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/SFML/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Cpp/3D/SFML/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
