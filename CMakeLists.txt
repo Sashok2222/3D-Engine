@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(3D)
+set(CMAKE_CXX_STANDARD 11)
+add_executable(3D main.cpp Structs.h Camera.cpp Camera.h)
+set(SFML_DIR "./SFML/lib/cmake/SFML")
+include_directories("./SFML/include")
+find_package(SFML 2.6.0 COMPONENTS graphics audio REQUIRED)
+target_link_libraries(3D sfml-system sfml-window sfml-graphics)
