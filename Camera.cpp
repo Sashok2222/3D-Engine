@@ -45,7 +45,7 @@ void Camera::Draw(std::vector<Polygon> &mesh, sf::RenderWindow &win, float angle
             Vec3::RotateXZ(toProjRotXY, toProjRotXZ, angleXZ);
             Vec3::RotateYZ(toProjRotXZ, toProjRotFinal, angleYZ);
             toProjMove = toProjRotFinal;
-            toProjMove.z += 410.0f;
+            toProjMove.z += 1.5f;
             Vec2 proj = Vec2(toProjMove.x * (200 / toProjMove.z) + w / 2,
                     toProjMove.y * (200 / toProjMove.z) + h / 2);
             coords[j] = proj;
